@@ -1,0 +1,123 @@
+/* TestApp.scala */
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+
+import scala.collection.mutable
+import org.apache.spark.mllib.clustering.{EMLDAOptimizer, OnlineLDAOptimizer, DistributedLDAModel, LDA}
+import org.apache.spark.mllib.linalg.{Vector, Vectors}
+import org.apache.spark.rdd.RDD
+
+object TestApp {
+  def main(args: Array[String]) {
+  
+    
+    val conf = new SparkConf().setAppName("Simple Application")
+    val sc = new SparkContext(conf)
+   
+  
+	val corpusPath = "/home/ccortes/NYTimes/docword.nytimes.txt" // Should be some file on your system
+	// Load documents from text files, 1 row per word
+	val rawCorpus = sc.textFile(corpusPath)
+	
+	//Quitamos las tres primeras filas
+	val firstRow = rawCorpus.first
+	val tempCorpus1: RDD[String] = rawCorpus.filter(x=> x!=firstRow)
+	
+	val secondRow = tempCorpus1.first
+	val tempCorpus2: RDD[String] = tempCorpus1.filter(x=> x!=secondRow)
+	
+	val thirdRow = tempCorpus2.first
+	val tempCorpus3: RDD[String] = tempCorpus2.filter(x=> x!=thirdRow)
+		
+	//Separamos los strings por los espacios nos queda cada row de la forma Array[String](DocID, WordID, WordCount)
+	val StringCorpus = tempCorpus3.map(x=> x.split(' '))
+
+	//Pasamos el array de String a array de double
+	val doubleCorpus = StringCorpus.map(x=>(x(0).toLong, Array( x(1).toDouble, x(2).toDouble)))
+
+	
+	/* 
+	Ahora tenemos un RDD de la siguiente forma:
+	
+	Row 1: (Double, Array[Double]) = ( DocID, Array( WordID, WordCount))
+	
+	Lo que queremos conseguir es un RDD que tenga la siguiente forma:
+	
+	Row 1: (Long, Vector)  =  (DocID, [countWord1, countWord2, ... ])
+	
+	
+	*/
+	
+	//Ahora mismo tenemos: Row 1: (Double, Array[Double]) = ( DocID, Array( WordID, WordCount, WordID, WordCount, ...)) es decir ya hemos agrupado todas las palabras de cada documento
+	val reducedCorpus = doubleCorpus.reduceByKey((x,y)=>x++y)
+	
+	
+
+
+	val sparseCorpus = reducedCorpus.map{ case (docID, wordCount) =>
+		val counts = new mutable.HashMap[Int, Double]()
+		var i=0
+		var j=0
+		for (i <- 0 to (wordCount.size-1) by 2 ){
+		
+			counts(wordCount(i).toInt)= wordCount(i+1);
+		}
+		
+		(docID, Vectors.sparse(102661, counts.toSeq))
+	}
+
+	val numTopics = 10
+	val lda = new LDA().setK(numTopics).setMaxIterations(10)
+	
+	val ldaModel = lda.run(sparseCorpus)
+	
+	val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 10)
+	
+
+	topicIndices.foreach(println)
+
+	
+	
+	}
+}
+
+
+/*
+Funcionamiento del HashMap
+
+val counts = new mutable.HashMap[Int, Double]()
+counts +=(1 -> 2.0)
+
+
+*/
+
+
+// (id, Vectors.sparse(vocab.size, counts.toSeq))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
