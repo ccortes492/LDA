@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /home/ccortes/TestApp/target/scala-2.10/classes
+output dir -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes
 compile options:
 0 items
 javac options:
@@ -20,23 +20,23 @@ name hashing:
 0 -> true
 products:
 11 items
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$1.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$2.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$3.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$4.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$5.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$6.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7$$anonfun$apply$1.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$main$1.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$.class
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/TestApp/target/scala-2.10/classes/TestApp.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$1.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$2.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$3.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$4.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$5.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$6.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7$$anonfun$apply$1.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$main$1.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$.class
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp.class
 binary dependencies:
 4 items
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.1.jar
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.5.1.jar
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.1.jar
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.5.1.jar
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /home/ccortes/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -55,132 +55,138 @@ inheritance external dependencies:
 0 items
 class names:
 11 items
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$1
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$2
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$3
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$4
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$5
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$6
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$7
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$7$$anonfun$apply$1
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$main$1
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$1
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$2
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$3
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$4
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$5
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$6
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$7
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$7$$anonfun$apply$1
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp$$anonfun$main$1
 used names:
-97 items
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> !=
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> +
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> ++
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> -
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> <init>
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> AnyRef
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> Array
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> ClassTag
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> DistributedLDAModel
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> Double
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> EMLDAOptimizer
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> HashMap
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> Int
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> LDA
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> Long
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> OnlineLDAOptimizer
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> Ordering
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> Predef
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> RDD
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> ScalaRunTime
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> SparkConf
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> SparkContext
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> String
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> StringCorpus
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> TestApp
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> Unit
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> Vector
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> Vectors
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> _1
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> _2
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> apache
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> apply
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> arrayClass
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> augmentString
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> by
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> canBuildFrom
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> clustering
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> collection
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> conf
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> corpusPath
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> counts
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> describeTopics
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> docID
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> doubleArrayOps
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> doubleCorpus
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> filter
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> first
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> firstRow
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> foreach
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> i
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> intWrapper
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> lda
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> ldaModel
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> linalg
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> map
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> materializeClassTag
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> math
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> mllib
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> mutable
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> ne
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> numTopics
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> org
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> package
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> println
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> rawCorpus
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> rdd
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> rddToPairRDDFunctions
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> reduceByKey
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> reducedCorpus
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> refArrayOps
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> run
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> sc
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> scala
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> secondRow
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> setAppName
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> setK
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> setMaxIterations
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> size
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> spark
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> sparse
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> sparseCorpus
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> split
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> tempCorpus1
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> tempCorpus2
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> tempCorpus3
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> textFile
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> thirdRow
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> to
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> toDouble
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> toInt
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> toLong
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> toSeq
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> topicIndices
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> update
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> wordCount
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> x
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> y
+103 items
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> !=
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> +
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> ++
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> -
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> <init>
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> AnyRef
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> Array
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> ClassTag
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> DistributedLDAModel
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> Double
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> EMLDAOptimizer
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> HashMap
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> Int
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> LDA
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> Long
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> MEMORY_AND_DISK
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> OnlineLDAOptimizer
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> Ordering
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> Predef
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> RDD
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> ScalaRunTime
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> SparkConf
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> SparkContext
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> StorageLevel
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> String
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> StringCorpus
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> TestApp
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> Unit
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> Vector
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> Vectors
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> _1
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> _2
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> apache
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> apply
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> args
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> arrayClass
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> augmentString
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> by
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> canBuildFrom
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> clustering
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> collection
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> conf
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> corpusPath
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> counts
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> describeTopics
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> docID
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> doubleArrayOps
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> doubleCorpus
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> filter
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> first
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> firstRow
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> foreach
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> i
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> intWrapper
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> lda
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> ldaModel
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> linalg
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> map
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> materializeClassTag
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> math
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> mllib
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> mutable
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> ne
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> numTopics
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> org
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> package
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> persist
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> println
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> rawCorpus
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> rdd
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> rddToPairRDDFunctions
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> reduceByKey
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> reducedCorpus
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> refArrayOps
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> run
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> sc
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> scala
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> secondRow
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> setAppName
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> setK
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> setMaxIterations
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> setOptimizer
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> size
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> spark
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> sparse
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> sparseCorpus
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> split
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> storage
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> tempCorpus1
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> tempCorpus2
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> tempCorpus3
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> textFile
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> thirdRow
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> to
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> toDouble
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> toInt
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> toLong
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> toSeq
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> topicIndices
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> update
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> wordCount
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> x
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> y
 product stamps:
 11 items
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$1.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$2.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$3.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$4.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$5.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$6.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7$$anonfun$apply$1.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$main$1.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp$.class -> lastModified(1452336750000)
-/home/ccortes/TestApp/target/scala-2.10/classes/TestApp.class -> lastModified(1452336750000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$1.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$2.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$3.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$4.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$5.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$6.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7$$anonfun$apply$1.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$main$1.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$.class -> lastModified(1452458825000)
+/home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp.class -> lastModified(1452458825000)
 source stamps:
 1 items
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> hash(a7bbc52476ddd37eb4da84b52443ec2bf4200dec)
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> hash(a044628aeac656e9c5cd009f95216b713c4801c2)
 binary stamps:
 4 items
 /home/ccortes/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.1.jar -> lastModified(1443615475000)
@@ -189,24 +195,33 @@ binary stamps:
 /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> lastModified(1445497156000)
 class names:
 4 items
-/home/ccortes/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.1.jar -> org.apache.spark.SparkConf$
-/home/ccortes/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.5.1.jar -> org.apache.spark.mllib.linalg.Vectors
-/home/ccortes/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Array$
+/home/ccortes/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.5.1.jar -> org.apache.spark.SparkContext$
+/home/ccortes/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.5.1.jar -> org.apache.spark.mllib.linalg.Vectors$
+/home/ccortes/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.Double
 /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
 internal apis:
 1 items
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBqsD+nAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJXcueV0AAZub3RpZnlzcQB+AAyGAZifdAAEd2FpdHNxAH4ADA5TIEl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMLqp5jXQABmVxdWFsc3NxAH4ADPtd3aF0AAxhc0luc3RhbmNlT2ZzcQB+AAwy6np6dAAMc3luY2hyb25pemVkc3EAfgAMU8uzDnQADSRpc0luc3RhbmNlT2ZzcQB+AAwdC2YSdAAEbWFpbnNxAH4ADBOp98J0AAlub3RpZnlBbGxzcQB+AAwA6RjjdAAMaXNJbnN0YW5jZU9mc3EAfgAMSzfm2nQAAj09c3EAfgAM1g+HM3QABWNsb25lc3EAfgAMHdTPPnQACHRvU3RyaW5nc3EAfgAMvfwh+nQAAiE9c3EAfgAMxTJ+p3QACGdldENsYXNzc3EAfgAM3vOR8XQAAm5lc3EAfgAMhfj4W3QAAmVxc3EAfgAM+4NhpnQAAiMjc3EAfgAMmlOlCnQACGZpbmFsaXplc3EAfgAMjfILe3QACGhhc2hDb2Rlc3EAfgAMGVLglnQAB1Rlc3RBcHBzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ADd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AFgBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AX3NxAH4AWAF1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFAAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHp1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBneHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBTdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBuWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBec3EAfgBtdAAFQXJyYXlxAH4Ac3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBtdAAGU3RyaW5nc3EAfgBxc3EAfgB0dXEAfgB3AAAAA3NxAH4AeXQABGphdmFzcQB+AHl0AARsYW5ncQB+AH5wc3EAfgBYAXVxAH4APAAAAABwc3EAfgBYAXVxAH4AkgAAAAJzcQB+AG10AAZPYmplY3RxAH4AlnNxAH4AbXQAA0FueXEAfgBzcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUiYD6qh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAvL2hvbWUvY2NvcnRlcy9UZXN0QXBwL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSnu8Ukdt3TfrTahLUkQ+wr9CAN7A==
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBqsD+nAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJXcueV0AAZub3RpZnlzcQB+AAyGAZifdAAEd2FpdHNxAH4ADA5TIEl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMLqp5jXQABmVxdWFsc3NxAH4ADPtd3aF0AAxhc0luc3RhbmNlT2ZzcQB+AAwy6np6dAAMc3luY2hyb25pemVkc3EAfgAMU8uzDnQADSRpc0luc3RhbmNlT2ZzcQB+AAwdC2YSdAAEbWFpbnNxAH4ADBOp98J0AAlub3RpZnlBbGxzcQB+AAwA6RjjdAAMaXNJbnN0YW5jZU9mc3EAfgAMSzfm2nQAAj09c3EAfgAM1g+HM3QABWNsb25lc3EAfgAMHdTPPnQACHRvU3RyaW5nc3EAfgAMvfwh+nQAAiE9c3EAfgAMxTJ+p3QACGdldENsYXNzc3EAfgAM3vOR8XQAAm5lc3EAfgAMhfj4W3QAAmVxc3EAfgAM+4NhpnQAAiMjc3EAfgAMmlOlCnQACGZpbmFsaXplc3EAfgAMjfILe3QACGhhc2hDb2Rlc3EAfgAMGVLglnQAB1Rlc3RBcHBzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ADd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AFgBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AX3NxAH4AWAF1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFAAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHp1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBneHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBTdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBuWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBec3EAfgBtdAAFQXJyYXlxAH4Ac3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBtdAAGU3RyaW5nc3EAfgBxc3EAfgB0dXEAfgB3AAAAA3NxAH4AeXQABGphdmFzcQB+AHl0AARsYW5ncQB+AH5wc3EAfgBYAXVxAH4APAAAAABwc3EAfgBYAXVxAH4AkgAAAAJzcQB+AG10AAZPYmplY3RxAH4AlnNxAH4AbXQAA0FueXEAfgBzcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUi1KstR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAzL2hvbWUvY2NvcnRlcy9MREEvVGVzdEFwcC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUoERiiurGVunFzQCflSFrcTxIAcI=
 external apis:
 0 items
 source infos:
 1 items
-/home/ccortes/TestApp/src/main/scala/TestApp.scala -> 
+/home/ccortes/LDA/TestApp/src/main/scala/TestApp.scala -> 
 AAAAAAAAAAA=
 compilations:
-5 items
-0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUS9sK+d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUQ6XHNwYXJrLTEuNS4xLWJpbi1oYWRvb3AyLjZcQ2FybG9zXFRlc3RBcHBcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS8=
-1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUUV5Tm11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMUM6XFVzZXJzXENhcmxvc1xUZXN0QXBwXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv
-2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUUkMg111cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0M6XFVzZXJzXENhcmxvc1xTUEFSS1xUZXN0QXBwXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv
-3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUUnpAQt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9ob21lL2Njb3J0ZXMvVGVzdEFwcC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
-4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUiYD6qh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9ob21lL2Njb3J0ZXMvVGVzdEFwcC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+14 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUS9sK+d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARUQ6XHNwYXJrLTEuNS4xLWJpbi1oYWRvb3AyLjZcQ2FybG9zXFRlc3RBcHBcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS8=
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUUV5Tm11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMUM6XFVzZXJzXENhcmxvc1xUZXN0QXBwXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUUkMg111cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0M6XFVzZXJzXENhcmxvc1xTUEFSS1xUZXN0QXBwXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUUnpAQt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9ob21lL2Njb3J0ZXMvVGVzdEFwcC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUiYD6qh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9ob21lL2Njb3J0ZXMvVGVzdEFwcC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUiz1iLl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMy9ob21lL2Njb3J0ZXMvTERBL1Rlc3RBcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUiz5RR91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMy9ob21lL2Njb3J0ZXMvTERBL1Rlc3RBcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUiz776J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMy9ob21lL2Njb3J0ZXMvTERBL1Rlc3RBcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUi0RkWd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMy9ob21lL2Njb3J0ZXMvTERBL1Rlc3RBcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUi0VgzV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMy9ob21lL2Njb3J0ZXMvTERBL1Rlc3RBcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUi0jZsF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMy9ob21lL2Njb3J0ZXMvTERBL1Rlc3RBcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUi0lvgx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMy9ob21lL2Njb3J0ZXMvTERBL1Rlc3RBcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUi06bAB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMy9ob21lL2Njb3J0ZXMvTERBL1Rlc3RBcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUi1KstR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMy9ob21lL2Njb3J0ZXMvTERBL1Rlc3RBcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=

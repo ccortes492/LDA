@@ -1,25 +1,25 @@
-[0m[[0minfo[0m] [0mPackaging /home/ccortes/TestApp/target/scala-2.10/testapp_2.10-1.0.jar ...[0m
+[0m[[0minfo[0m] [0mPackaging /home/ccortes/LDA/TestApp/target/scala-2.10/testapp_2.10-1.0.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	TestApp$$anonfun$6.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$6.class[0m
-[0m[[0mdebug[0m] [0m	TestApp$$anonfun$3.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$3.class[0m
-[0m[[0mdebug[0m] [0m	TestApp$$anonfun$2.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$2.class[0m
 [0m[[0mdebug[0m] [0m	TestApp$$anonfun$5.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$5.class[0m
-[0m[[0mdebug[0m] [0m	TestApp$$anonfun$4.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$4.class[0m
-[0m[[0mdebug[0m] [0m	TestApp$$anonfun$7$$anonfun$apply$1.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$5.class[0m
 [0m[[0mdebug[0m] [0m	TestApp.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp.class[0m
 [0m[[0mdebug[0m] [0m	TestApp$$anonfun$7.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7.class[0m
-[0m[[0mdebug[0m] [0m	TestApp$$anonfun$1.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$1.class[0m
-[0m[[0mdebug[0m] [0m	TestApp$$anonfun$main$1.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7.class[0m
+[0m[[0mdebug[0m] [0m	TestApp$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$3.class[0m
 [0m[[0mdebug[0m] [0m	TestApp$.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ccortes/TestApp/target/scala-2.10/classes/TestApp$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$.class[0m
+[0m[[0mdebug[0m] [0m	TestApp$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	TestApp$$anonfun$7$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$7$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	TestApp$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	TestApp$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	TestApp$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$6.class[0m
+[0m[[0mdebug[0m] [0m	TestApp$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ccortes/LDA/TestApp/target/scala-2.10/classes/TestApp$$anonfun$1.class[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m

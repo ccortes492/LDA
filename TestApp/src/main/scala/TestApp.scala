@@ -8,6 +8,8 @@ import org.apache.spark.mllib.clustering.{EMLDAOptimizer, OnlineLDAOptimizer, Di
 import org.apache.spark.mllib.linalg.{Vector, Vectors}
 import org.apache.spark.rdd.RDD
 
+import org.apache.spark.storage._
+
 object TestApp {
   def main(args: Array[String]) {
   
@@ -16,7 +18,9 @@ object TestApp {
     val sc = new SparkContext(conf)
    
   
-	val corpusPath = "/home/ccortes/NYTimes/docword.nytimes.txt" // Should be some file on your system
+	//val corpusPath = "/home/ccortes/NYTimes/docword.nytimes.txt" // Should be some file on your system
+
+	val corpusPath = "hdfs://reed:54310/user/ccortes/"+args(0)
 	// Load documents from text files, 1 row per word
 	val rawCorpus = sc.textFile(corpusPath)
 	
@@ -66,10 +70,13 @@ object TestApp {
 		
 		(docID, Vectors.sparse(102661, counts.toSeq))
 	}
-
+	
 	val numTopics = 10
 	val lda = new LDA().setK(numTopics).setMaxIterations(10)
+	lda.setOptimizer("online")
 	
+		
+	sparseCorpus.persist(StorageLevel.MEMORY_AND_DISK)
 	val ldaModel = lda.run(sparseCorpus)
 	
 	val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 10)
