@@ -6,16 +6,16 @@ import time
 optimizers = ['em','online']
 cluster = ['spark://reed:7077']
 db  = ['100db.txt','050db.txt', '025db.txt', '012db.txt', '006db.txt']
-cores = [1,4,8,16]
+cores = [1,2,4,8,16]
 
 for opt in optimizers:
 	for clus in cluster:
 		for data in db:
 			for num in cores: 
-				print "Empiezo "+data+opt+clus
-				command = '/usr/local/spark/bin/spark-submit --class "TestApp" --master '+ clus+' --total-executor-cores '+str(num)+' ../TestApp/target/scala-2.10/testapp_2.10-1.0.jar '+data+' '+opt+' '+str(num)
+				print "Empiezo "+data+opt+cores
+				command = '/usr/local/spark/bin/spark-submit --class "TestApp" --master '+ clus+' --total-executor-cores '+str(num)+' ../TestApp/target/scala-2.10/testapp_2.10-1.0.jar '+data+' '+opt+' '+str(num).zfill(2)
 				return_code = call(command, shell=True)
-				print "Acabo "+data+opt+clus
+				print "Acabo "+data+opt+cores
 				time.sleep(10)
 """
 return_code = call('/usr/local/spark/bin/spark-submit --class "TestApp" --master spark://reed:7077 ../TestApp/target/scala-2.10/testapp_2.10-1.0.jar 100db.txt em', shell=True)
