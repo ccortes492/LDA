@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#testapp_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#testapp_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@680a4905[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c0f889[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -18549,13 +18549,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/ccortes/.ivy2/local/org.apache.avro/avro/1.7.7/jars/avro.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0mdebug[0m] [0m	jcenter: downloading https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://jcenter.bintray.com/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.avro#avro;1.7.7!avro.jar (3939ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro;1.7.7!avro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.21!kryo.jar(bundle)[0m
@@ -18656,7 +18650,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8530ms :: artifacts dl 4165ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7734ms :: artifacts dl 187ms[0m
 [0m[[0mdebug[0m] [0m	report for default#testapp_2.10;1.0 compile produced in /home/ccortes/LDA/TestApp/target/resolution-cache/reports/default-testapp_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#testapp_2.10;1.0 runtime produced in /home/ccortes/LDA/TestApp/target/resolution-cache/reports/default-testapp_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#testapp_2.10;1.0 test produced in /home/ccortes/LDA/TestApp/target/resolution-cache/reports/default-testapp_2.10-test.xml[0m
@@ -18670,5 +18664,5 @@
 [0m[[0mdebug[0m] [0m	report for default#testapp_2.10;1.0 docs produced in /home/ccortes/LDA/TestApp/target/resolution-cache/reports/default-testapp_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#testapp_2.10;1.0 pom produced in /home/ccortes/LDA/TestApp/target/resolution-cache/reports/default-testapp_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#testapp_2.10;1.0 scala-tool produced in /home/ccortes/LDA/TestApp/target/resolution-cache/reports/default-testapp_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (8530ms resolve - 4165ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (7734ms resolve - 187ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

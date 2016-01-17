@@ -14,7 +14,7 @@ object TestApp {
   def main(args: Array[String]) {
   
     
-    val conf = new SparkConf().setAppName("Simple Application")
+    val conf = new SparkConf().setAppName(args(0)+args(1))
     val sc = new SparkContext(conf)
    
   
@@ -73,7 +73,7 @@ object TestApp {
 	
 	val numTopics = 10
 	val lda = new LDA().setK(numTopics).setMaxIterations(10)
-	lda.setOptimizer("online")
+	lda.setOptimizer(args(1))
 	
 		
 	sparseCorpus.persist(StorageLevel.MEMORY_AND_DISK)
