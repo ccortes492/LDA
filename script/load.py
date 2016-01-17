@@ -24,6 +24,7 @@ def load():
             if app in result[i].values():
                 times =times + [parsedata(app, result[i])]
                 break
+    final = []
     for app in times:
         size = app[0][0:3]
         numCores = app[0][-2:]
@@ -31,6 +32,8 @@ def load():
             opt = 'em'
         else:
             opt = 'online'
+        final = final + [[app[0],app[1], size, numCores,opt]]
+    print final 
         
 
 def parsedata(app, info):
