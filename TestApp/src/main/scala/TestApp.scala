@@ -14,7 +14,7 @@ object TestApp {
   def main(args: Array[String]) {
   
     
-    val conf = new SparkConf().setAppName(args(0)+args(1))
+    val conf = new SparkConf().setAppName(args(0)+args(1)+args(2)
     val sc = new SparkContext(conf)
    
   

@@ -13,7 +13,7 @@ for opt in optimizers:
 		for data in db:
 			for num in cores: 
 				print "Empiezo "+data+opt+clus
-				command = '/usr/local/spark/bin/spark-submit --class "TestApp" --master '+ clus+' --total-executor-cores '+str(num)+' ../TestApp/target/scala-2.10/testapp_2.10-1.0.jar '+data+' '+opt+
+				command = '/usr/local/spark/bin/spark-submit --class "TestApp" --master '+ clus+' --total-executor-cores '+str(num)+' ../TestApp/target/scala-2.10/testapp_2.10-1.0.jar '+data+' '+opt+' '+str(num)
 				return_code = call(command, shell=True)
 				print "Acabo "+data+opt+clus
 				time.sleep(10)
