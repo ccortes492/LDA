@@ -10,7 +10,8 @@ def load():
     for data in db:
         for opt in optimizers:
             for c in cores:
-                apps = apps + [data+opt+str(c)]
+                apps = apps + [data+opt+str(c).zfill(2)]
+                
     #direccion y puerto del server
     connection = httplib.HTTPConnection('reed.pc.ac.upc.edu',8080)
     connection.connect()
@@ -19,11 +20,16 @@ def load():
     #leemos el resultado de la llamada
     result = json.loads(connection.getresponse().read())
     times = []
+    #para cada app
     for app in apps:
+        #la buscamos en la respuesta de la API
         for i in range(len(result)):
             if app in result[i].values():
+                #Cogemos los tiempos del JSON y lo guardamos en times.
                 times =times + [parsedata(app, result[i])]
+                #Solo nos interesa la ultima ejecucion de la app
                 break
+    #Damos formato a la info de cada app.
     final = []
     for app in times:
         size = app[0][0:3]
@@ -33,7 +39,9 @@ def load():
         else:
             opt = 'online'
         final = final + [[app[0],app[1], size, numCores,opt]]
-    print final 
+
+    #guardamos la info de la app en un txt 
+    return final 
         
 
 def parsedata(app, info):
