@@ -4,7 +4,7 @@ from subprocess import call
 import time
 
 optimizers = ['em','online']
-cluster = ['local[1]', 'local[4]', 'spark://reed:7077']
+cluster = ['spark://reed:7077']
 db  = ['100db.txt','050db.txt', '025db.txt', '012db.txt', '006db.txt']
 cores = [1,4,8,16]
 
