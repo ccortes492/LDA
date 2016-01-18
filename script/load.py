@@ -34,7 +34,7 @@ def load():
     for app in times:
         size = app[0][0:3]
         numCores = app[0][-2:]
-        if app[0].find('em'):
+        if app[0].find('em')>0:
             opt = 'em'
         else:
             opt = 'online'
@@ -53,7 +53,20 @@ def parsedata(app, info):
     form = s[0:s.find('T')]+' '+s[11:s.find('G')]
     timeFinal = datetime.strptime(form, "%Y-%m-%d %H:%M:%S.%f")
 
-    return [app,timeFinal - timeInicial]
+    return [app,format((timeFinal - timeInicial).total_seconds(),'.3f')]
+
+
+def save(matrix):
+    out = ""
+
+    for row in matrix:
+        for cell in row:
+            out = out + str(cell) + " ; "
+        out += "\n"
+
+    with open("out.txt","wt") as file:
+        file.write(out)
+    
     
 """
 form = s[0:s.find('T')]+' '+s[11:s.find('G')]
