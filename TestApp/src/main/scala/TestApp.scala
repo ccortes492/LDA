@@ -56,7 +56,7 @@ object TestApp {
 	//Ahora mismo tenemos: Row 1: (Double, Array[Double]) = ( DocID, Array( WordID, WordCount, WordID, WordCount, ...)) es decir ya hemos agrupado todas las palabras de cada documento
 	val reducedCorpus = doubleCorpus.reduceByKey((x,y)=>x++y)
 	
-	
+	//Ahora vamos de dos en dos por el hechod e tener WordID, WordCount i ponimos en el hashMap key=WordID, value=WordCount. Hacemos un hashMap porque es rapido y luego es muy facil pasar a Vector.sparse que es lo que usa LDA
 
 
 	val sparseCorpus = reducedCorpus.map{ case (docID, wordCount) =>
@@ -68,21 +68,23 @@ object TestApp {
 			counts(wordCount(i).toInt)= wordCount(i+1);
 		}
 		
-		(docID, Vectors.sparse(102661, counts.toSeq))
+		(docID, Vectors.sparse(102661, counts.toSeq)) //el 102661 es el tamaño del vocab. por eso no cambia con cada tamaño del dataset. Lo que partimos es el tamaño y tal y como viene estamos quitando documentos. 
 	}
 	
 	val numTopics = 10
-	val lda = new LDA().setK(numTopics).setMaxIterations(10)
+	val lda = new LDA().setK(numTopics).setMaxIterations(50)
 	lda.setOptimizer(args(1))
 	
 		
 	sparseCorpus.persist(StorageLevel.MEMORY_AND_DISK)
 	val ldaModel = lda.run(sparseCorpus)
 	
-	val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 10)
+	
+	//No queremos ver los topics en las pruebas de rendimiento
+	//val topicIndices = ldaModel.describeTopics(maxTermsPerTopic = 10)
 	
 
-	topicIndices.foreach(println)
+	//topicIndices.foreach(println)
 
 	
 	
