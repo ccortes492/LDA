@@ -22,7 +22,7 @@ object TestApp {
 
 	val corpusPath = "hdfs://reed:54310/user/ccortes/"+args(0)
 	// Load documents from text files, 1 row per word
-	val rawCorpus = sc.textFile(corpusPath)
+	val rawCorpus = sc.textFile(corpusPath )
 	
 	//Quitamos las tres primeras filas
 	val firstRow = rawCorpus.first
